@@ -17,4 +17,4 @@ package uglyiconpack
 
 import jahirfiquitiva.libs.kuper.providers.zooper.ZooperTemplateProvider
 
-class ZooperProvider : ZooperTemplateProvider()
+class wZooperProvider : ZooperTemplateProvider()

@@ -34,7 +34,7 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
-            outputFileName = "MyBlueprintApp-v${variant.versionName}-${variant.name}.apk"
+            outputFileName = "UglyIconPack-v${variant.versionName}-${variant.name}.apk"
         }
     }
 
@@ -52,7 +52,7 @@ android {
                                 onesignal_google_project_number: "1234567890"]
                                 */
 
-        applicationId "jahirfiquitiva.apps.blueprint.demo"
+        applicationId "uglyiconpack"
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode 145
@@ -71,6 +71,10 @@ android {
             shrinkResources false
             proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
             consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            debuggable true
         }
     }
 

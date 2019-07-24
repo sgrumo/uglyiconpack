@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="jahirfiquitiva.apps.blueprint.demo">
+          package="app.java.uglyiconpack">
 
     <!-- Permission required for donations -->
     <uses-permission android:name="com.android.vending.BILLING" />

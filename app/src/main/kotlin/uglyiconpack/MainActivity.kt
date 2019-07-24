@@ -16,7 +16,6 @@
 package uglyiconpack
 
 import com.github.javiersantos.piracychecker.PiracyChecker
-import jahirfiquitiva.apps.blueprint.demo.BuildConfig
 import jahirfiquitiva.libs.blueprint.models.NavigationItem
 import jahirfiquitiva.libs.blueprint.ui.activities.BottomNavigationBlueprintActivity
 
@@ -50,8 +49,11 @@ class MainActivity : BottomNavigationBlueprintActivity() {
      */
     override fun getLicenseChecker(): PiracyChecker? {
         destroyChecker() // Important
+        /*
         return if (BuildConfig.DEBUG) null
         else super.getLicenseChecker()
+        */
+        return null
     }
 
     /**
@@ -76,5 +78,5 @@ class MainActivity : BottomNavigationBlueprintActivity() {
      * If set to BuildConfig.DEBUG, the app will print the warnings only while debugging the app
      * (This is the safest option, so the apk you publish in PlayStore doesn't print them)
      */
-    override fun debug(): Boolean = BuildConfig.DEBUG
+    override fun debug(): Boolean = /*BuildConfig.DEBUG*/ false
 }

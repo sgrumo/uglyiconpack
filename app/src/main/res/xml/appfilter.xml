@@ -19,57 +19,46 @@
   -->
 
 <resources>
-
-    <item
-        component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity}"
-        drawable="people" />
-
-    <item
-        component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}"
-        drawable="people" />
-
-    <item
-        component="ComponentInfo{/com.android.contacts.DialtactsContactsEntryActivity}"
-        drawable="people" />
-
-    <item
-        component="ComponentInfo{com.android.contacts/}"
-        drawable="people" />
-
-    <item
-        component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity}"
-        drawable="" />
-
-    <item
-        component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity}"
-        drawable="something" />
-
-    <item
-        component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity}"
-        drawable="icon" />
-
-    <item
-        component="ComponentInfo{/com.android.contacts.DialtactsContactsEntryActivity}"
-        drawable="phone" />
-
-    <item
-        component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}"
-        drawable="phone" />
-
-    <item
-        component="ComponentInfo{com.android.contacts/}"
-        drawable="contacts" />
-
-    <item
-        component="ComponentInfo{}"
-        drawable="cell" />
-
-    <item
-        component="ComponentInfo{/}"
-        drawable="an_icon" />
-
-    <item
-        component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity}"
-        drawable="" />
+    <!-- Whatsapp -->
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="ic_whatsapp" />
+    <!-- Chrome -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="ic_chrome" />
+    <!-- Spotify -->
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="ic_spotify"/>
+    <item component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.activity.MainActivity}" drawable="ic_spotify"/>
+    <item component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.Launcher}" drawable="ic_spotify"/>
+    <!-- Calculator -->
+    <item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="ic_calculator" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="ic_calculator" />
+    <item component="ComponentInfo{com.sec.android.app.calculator/com.sec.android.app.calculator.Calculator}" drawable="ic_calculator" />
+    <item component="ComponentInfo{uk.co.nickfines.RealCalc/uk.co.nickfines.RealCalc.Calculator}" drawable="ic_calculator" />
+    <item component="ComponentInfo{uk.co.nickfines.RealCalcPlus/uk.co.nickfines.RealCalcPlus.Calculator}" drawable="ic_calculator" />
+    <item component="ComponentInfo{com.android2.calculator3/com.android2.calculator3.Calculator}" drawable="ic_calculator" />
+    <item component="ComponentInfo{com.firedevelop.firecalc/com.firedevelop.firecalc.FireCalcActivity}" drawable="ic_calculator" />
+    <item component="ComponentInfo{com.scientificCalculator/com.scientificCalculator.CalculatorInterface}" drawable="ic_calculator" />
+    <item component="ComponentInfo{com.asus.calculator/com.asus.calculator.Calculator}" drawable="ic_calculator" />
+    <item component="ComponentInfo{com.htc.calculator/com.htc.calculator.Calculator}" drawable="ic_calculator" />
+    <!-- Keep -->
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="ic_keep"/>
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.Br}" drawable="ic_keep"/>
+    <!-- Instagram -->
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="ic_instagram" />
+    <!-- Telegram -->
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="ic_telegram"/>
+    <item component="ComponentInfo{org.telegram.android/org.telegram.android.StartActivity}" drawable="ic_telegram"/>
+    <!-- Maps -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="ic_maps"/>
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.LatitudeActivity}" drawable="ic_maps"/>
+    <!-- Translate -->
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="ic_translate"/>
+    <!-- GMail -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="ic_gmail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="ic_gmail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.AutoSendActivity}" drawable="ic_gmail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.GmailActivity}" drawable="ic_gmail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ComposeActivityGmail}" drawable="ic_gmail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity}" drawable="ic_gmail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivity}" drawable="ic_gmail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivityGoogleMail}" drawable="ic_gmail"/>
 
 </resources>
