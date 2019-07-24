@@ -60,5 +60,15 @@
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity}" drawable="ic_gmail"/>
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivity}" drawable="ic_gmail"/>
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivityGoogleMail}" drawable="ic_gmail"/>
+    <!-- YouTube -->
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="ic_youtube"/>
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.froyo.phone.HomeActivity}" drawable="ic_youtube"/>
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="ic_youtube"/>
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.tablet.HomeActivity}" drawable="ic_youtube"/>
+    <!-- Google Play Music -->
+    <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="ic_play_musica"/>
+    <!-- Playstore -->
+    <item component="ComponentInfo{com.google.android.gms/com.google.android.gms.common.settings.GoogleSettingsActivity}" drawable="ic_play_store"/>
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="ic_play_store"/>
 
 </resources>
